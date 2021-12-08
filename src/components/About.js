@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css'
 
 export default class About extends Component {
@@ -28,7 +29,8 @@ export default class About extends Component {
                                 <div className="card bg-dark">
                                     <div className="card-body">
                                         <div>
-                                            <a className="btn btn-light" href="/distribuidora">Read More</a>
+                                            {/* <a className="btn btn-light" href="/distribuidora">Read More</a> */}
+                                            <Link className="btn btn-light" to="/distribuidora">Read More</Link>
                                         </div>
                                     </div>
                                 </div>

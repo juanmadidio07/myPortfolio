@@ -1,19 +1,18 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import Head from './components/Head';
-import About from './components/About'
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Distribuidora from './components/Distribuidora';
+import Home from './components/Home';
+import React from 'react';
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Head />
-      <About />
-      <Contact />
-      <Footer />
-    </div>
+      <BrowserRouter>
+      <Home />
+        <Routes>
+          <Route path="/" exact component={Home} />
+          <Route path="/distribuidora" component={Distribuidora} />
+        </Routes>
+      </BrowserRouter>
   );
 }
 
