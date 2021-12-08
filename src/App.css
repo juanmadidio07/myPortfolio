@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Manrope:wght@300&family=Patua+One&family=Readex+Pro&family=Spicy+Rice&display=swap');
+
+*{
+box-sizing: border-box;
+}
+body{
+  font-family: 'Readex Pro', sans-serif;
+}
+#footer{
+  background: #131313;
+  color: white;
+  padding: 8px;
+}
+
+#footer p {
+  opacity: 0.6;
+  text-align: left;
+  align-content: center;
+  margin-top: 10px;
+}
+.nav_{
+  background: #131313;
+}
+.word { 
+  background-color: #c91717;
+  font-family: 'Readex Pro', sans-serif;
+  color: #ebe9e9;
+  line-height: 1.4em;
+  height: 1.4em;
+  padding: 0 14px 0 7px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  font-size: 26px;
+}
+.word:before {
+  content: '';
+  background-color: white;
+  width: 1px;
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  right: 7px;
+  animation: anim 1000ms linear infinite;
+}
+@keyframes anim {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+}
+.name{
+  font-family: 'Readex Pro', sans-serif;
+  color:#ebe9e9;
+  height: 1.4em;
+  font-size: 26px;
+  padding: 0 14px 0 7px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+.banner{
+  height: 550px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.banner img{
+  margin: auto;
+}
+.text_name{
+  color: #c2bbbb;
+  font-size: 30px;
+  flex-wrap: wrap;
+}
+.contact{
+  color: #c2bbbb;
+  padding: 20px;
+}
+.contact div{
+  display: inline-block;
+}
+.contact i{
+  padding: 10px;
+}
+.wsp{
+  text-decoration: none;
+}
+.about{
+  background: #131313;
+}
+.image{
+  display: flex;
+  padding: 8px;
+}
+.texts{
+  margin: auto;
+}
+.projects-text{
+  color: #ebe9e9;
+}
+.img_project1{
+  border-radius: 5px;
+}
