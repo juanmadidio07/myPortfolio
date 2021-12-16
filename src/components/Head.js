@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../App.css'
-import Image from './logo.png'
 
 export default class Head extends Component {
     render() {
@@ -11,13 +10,10 @@ export default class Head extends Component {
                     <div className="col">
                         <div className="row">
                             <div className="col-lg-6 texts">
-                              <div className="container">
-                                <h1 className="text_name1">Portfolio WEB</h1>
+                              <div className="container portfolio">
+                                <h1 className="text_name1">My Personal WEB</h1>
                               </div>
                                 <br />
-                                <div className="container">
-                                  <h2 className="text_name">Follow me on..</h2>
-                                </div>
                                 <div className="container">
                                   <span className="word">instagram.com</span>
                                   <span className="name">/juanmadidio07</span>
@@ -29,7 +25,7 @@ export default class Head extends Component {
                             </div>
                             <div className="col-lg-6 image">
                               <div className="container d-flex">
-                                <img src={Image} title="Logo Juanma" alt="Logo Juanma" width="60%"></img>
+                                <img src={process.env.PUBLIC_URL + '/img/yo.png'} title="Logo Juanma" alt="Logo Juanma" width="100%" height="100%"></img>
                               </div>
                             </div>
                         </div>

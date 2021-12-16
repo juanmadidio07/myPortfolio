@@ -4,14 +4,15 @@ import About from './About'
 import Contact from './Contact';
 import Footer from './Footer';
 import '../App.css'
-import Navbar from "./Navbar";
+import Skills from "./Skills";
+
 export default class Home extends Component {
     render() {
         return (
             <div>
-                <Navbar />
                 <Head />
                 <About />
+                <Skills />
                 <Contact />
                 <Footer />
             </div>

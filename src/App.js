@@ -3,14 +3,17 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Distribuidora from './components/Distribuidora';
 import Home from './components/Home';
 import React from 'react';
+import Navbar from './components/Navbar';
+import NotFound from './components/NotFound';
 
 function App() {
   return (
       <BrowserRouter>
-      <Home />
+      <Navbar />
         <Routes>
-          <Route path="/" exact component={Home} />
-          <Route path="/distribuidora" component={Distribuidora} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Distribuidora" element={<Distribuidora/>} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
   );

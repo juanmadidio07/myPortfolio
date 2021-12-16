@@ -8,39 +8,38 @@ export default class About extends Component {
         <div className="container-fluid about">
             <div className="container">
                 <div className="row p-4">
-                    <div>
-                        <a name="about"><h1 className="projects-text text-center">My Projects</h1></a>
+                    <div className="container-fluid" id="about">
+                        <h1 className="projects-text text-center">Projects</h1>
                         <br></br>
                     </div>
                     <div className="col">
                         <div className="row">
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 py-2">
                                 <div className="card bg-dark">
                                     <div className="card-body">
                                         <div>
+                                            <div className="container-fluid py-2 text-white"><h4>Stock Control</h4></div>
                                             <div className="container-fluid py-2"><img src="../../distribuidora.png" title="distribuidora" alt="distribuidora" width="100%" /></div>
-                                            <div className="container-fluid py-2 text-white">lorem ipsum</div>
-                                            <div className="container-fluid py-2"><a className="btn btn-light" href="/distribuidora">Read More</a></div>
+                                            <div className="container-fluid py-2 text-white"><p>This system was made for a Provider</p></div>
+                                            <div className="container-fluid py-2"><Link className="btn btn-light" to="/Distribuidora">Read More</Link></div>
+                                            
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 py-2">
                                 <div className="card bg-dark">
                                     <div className="card-body">
-                                        <div>
-                                            {/* <a className="btn btn-light" href="/distribuidora">Read More</a> */}
-                                            <Link className="btn btn-light" to="/distribuidora">Read More</Link>
+                                        <div className="container-fluid py-2">                                    
+                                            <Link className="btn btn-light" to="Distribuidora">Read More</Link>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-4 py-2">
                                 <div className="card bg-dark">
                                     <div className="card-body">
-                                        <div>
-                                            <a className="btn btn-light" href="/distribuidora">Read More</a>
-                                        </div>
+                                    <div className="container-fluid py-2"><Link className="btn btn-light" to="/distribuidora">Read More</Link></div>
                                     </div>
                                 </div>
                             </div>
