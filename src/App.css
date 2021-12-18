@@ -1,147 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Manrope:wght@300&family=Patua+One&family=Readex+Pro&family=Spicy+Rice&display=swap');
-
 *{
 box-sizing: border-box;
+margin: 0;
+padding: 0;
+scroll-behavior: smooth;
 }
 body{
-  font-family: 'Readex Pro', sans-serif;
+    background: var(--body-bg);
 }
-#footer{
-  background: #131313;
-  color: white;
-  padding: 8px;
+a{
+    color: unset;
+    text-decoration: none;
+}
+.gradient__bg{
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 100% 0%, rgba(0, 0, 0, 1) 44%, rgba(187, 17, 17, 1) 86%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 100% 0%, rgba(0, 0, 0, 1) 44%, rgba(187, 17, 17, 1) 86%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 100% 0%, rgba(0, 0, 0, 1) 44%, rgba(187, 17, 17, 1) 86%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 100% 0%, rgba(0, 0, 0, 1) 44%, rgba(187, 17, 17, 1) 86%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 100% 0%, rgba(0, 0, 0, 1) 44%, rgb(187, 17, 17) 86%);
+}
+.gradient__text{
+       background:var(--gradient-text);
+       background-clip: text;
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+}         
+.section__padding{
+    padding: 4rem 6rem;
+}
+.section__margin{
+    margin: 4rem 6rem;
+}
+#logo2{
+    display: none;
+}
+.scale-up-center{
+    -webkit-animation:scale-up-center .4s cubic-bezier(.39,.575,.565,1.000) both;
+    animation:scale-up-center .4s cubic-bezier(.39,.575,.565,1.000) both
 }
 
-#footer p {
-  opacity: 0.6;
-  text-align: left;
-  align-content: center;
-  margin-top: 10px;
+ @-webkit-keyframes scale-up-center{
+     0%{
+         -webkit-transform:scale(.5);transform:scale(.5)
+        }
+    100%{
+        -webkit-transform:scale(1);transform:scale(1)
+    }
 }
-.nav_{
-  background: #131313;
+@keyframes scale-up-center{
+    0%{
+        -webkit-transform:scale(.5);transform:scale(.5)
+    }
+    100%{
+        -webkit-transform:scale(1);transform:scale(1)
+    }
 }
-.navigation{
-  z-index: 1030;
+@media screen and (max-width:750px){
+    .portfolio__navbar-links_logo img {
+        display: none;
+    }
+    #logo2{
+        display: flex;
+    }
 }
-.word { 
-  font-family: 'Readex Pro', sans-serif;
-  color: #ebe9e9;
-  line-height: 1.4em;
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-  font-size: 24px;
+@media screen and (max-width:700px){
+    .portfolio__navbar-links_logo img {
+        display: none;
+    }
+    #logo2{
+        display: flex;
+    }
+    .section__padding{
+        padding: 4rem;
+    }
+    .section__margin{
+        margin: 4rem;
+    }
 }
-/* .word:before {
-  content: '';
-  background-color: white;
-  width: 1px;
-  height: 0.8em;
-  position: absolute;
-  top: 10px;
-  bottom: 5px;
-  right: 7px;
-} */
-
-.name{
-  font-family: 'Readex Pro', sans-serif;
-  color: #dd1f1f;  
-  font-size: 24px;
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-}
-.banner{
-  display: flex;
-  vertical-align: middle;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 600px;
-  padding: 40px 0 40px 0;
-}
-.banner_2{
-  display: flex;
-  align-items: center;
-}
-.banner img{
-  margin: auto;
-}
-.text_name{
-  color: #ebe9e9;
-  font-size: 24px;
-  display: block;
-}
-.text_name1{
-  color:#c2bbbb;
-  display: inline;
-  font-size: 30px;
-  flex-wrap: wrap;
-  padding: 10px 10px 10px 0;
-}
-.contact{
-  color: #c2bbbb;
-  padding: 20px;
-}
-.contact div{
-  display: inline-block;
-}
-.contact i{
-  padding: 10px;
-}
-.wsp{
-  text-decoration: none;
-}
-.about{
-  background: #131313;
-}
-.about img {
-  border-radius: 8px;
-}
-.image{
-  display: flex;
-  align-items: center;
-}
-.portfolio{
-  margin-top: 30px;
-}
-.texts{
-  margin: auto;
-  padding: 15px;
-}
-.projects-text{
-  color: #ebe9e9;
-}
-.img_project1{
-  border-radius: 5px;
-}
-.text_personal{
-  color: #ebe9e9;
-  background-color: #131313;
-  padding: 10px;
-  font-size: 20px;
-}
-#skills .card{
-  background: #131313;
-}
-#skills img {
-  margin: auto;
-  width: 100%;
-  height: 50%;
-}
-.skill_img{
-  height: 300px;
-  width: 300px;
-}
-#skills .card-body{
-  padding: 0;
-  display: flex;
-  align-items: center;
-}
-.error404{
-height: 500px;
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-align-content: center;
+@media screen and (max-width:550px){
+    .portfolio__navbar-links_logo img {
+        display: none;
+    }
+    .section__padding{
+        padding: 4rem 2rem;
+    }
+    .section__margin{
+        margin: 4rem 2rem;
+    }
 }

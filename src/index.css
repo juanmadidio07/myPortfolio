@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Manrope:wght@300&family=Patua+One&family=Readex+Pro&family=Spicy+Rice&display=swap');
+
+:root{
+    --font-family: 'Readex Pro', sans-serif;
+    --gradient-text: #eeeeee;
+    --body-bg: #181818;
+    --responsive-navbar: #800303f2;
+}
