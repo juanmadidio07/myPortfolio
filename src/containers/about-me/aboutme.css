@@ -3,20 +3,11 @@
     flex-direction: column;
 
     padding: 2rem;
-    /* ff 3.6+ */
-    background:-moz-radial-gradient(circle at 0% 0%, rgba(0, 0, 0, 1) 44%, rgba(187, 17, 17, 1) 86%);
+    
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #202020, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #202020, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(circle at 0% 0%, rgba(0, 0, 0, 1) 44%, rgba(187, 17, 17, 1) 86%);
-
-    /* opera 11.10+ */
-    background:-o-radial-gradient(circle at 0% 0%, rgba(0, 0, 0, 1) 44%, rgba(187, 17, 17, 1) 86%);
-
-    /* ie 10+ */
-    background:-ms-radial-gradient(circle at 0% 0%, rgba(0, 0, 0, 1) 44%, rgba(187, 17, 17, 1) 86%);
-
-    /* global 92%+ browsers support */
-    background:radial-gradient(circle at 0% 0%, rgba(0, 0, 0, 1) 44%, rgb(187, 17, 17) 86%);
 }
 .portfolio__about-info {
     display: flex;

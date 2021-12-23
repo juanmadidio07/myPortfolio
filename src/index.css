@@ -3,6 +3,6 @@
 :root{
     --font-family: 'Readex Pro', sans-serif;
     --gradient-text: #eeeeee;
-    --body-bg: #181818;
-    --responsive-navbar: #800303f2;
+    --body-bg: #000;
+    --responsive-navbar: #464444;
 }

@@ -3,7 +3,7 @@ import React from 'react'
 import './App.css'
 
 import { Head, Navbar } from './components'
-import { AboutMe } from './containers'
+import { AboutMe, Works } from './containers'
 
 function App() {
     return (
@@ -13,6 +13,7 @@ function App() {
                 <Head />
             </div>
             <AboutMe />
+            <Works />
         </div>
     )
 }

@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../logo.svg'
-import logo2 from '../../logo2.svg'
 import './navbar.css'
 
 const Menu = () => (
@@ -21,7 +20,6 @@ function Navbar() {
             <div className='portfolio__navbar-links'>
                 <div className='portfolio__navbar-links_logo'>
                     <img src={logo} alt="logo" />
-                    <img src={logo2} alt="logo" id='logo2' />
                 </div>
                 <div className='portfolio__navbar-links_container'>
                     <Menu />
