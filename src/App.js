@@ -2,7 +2,7 @@ import React from 'react'
 
 import './App.css'
 
-import { Head, Navbar } from './components'
+import { Head, Navbar, Footer } from './components'
 import { AboutMe, Works } from './containers'
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
             </div>
             <AboutMe />
             <Works />
+            <Footer />
         </div>
     )
 }
