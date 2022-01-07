@@ -19,10 +19,10 @@
     display: flex;
 }
 .portfolio__header-content {
-    
     flex-direction: column;
-
+    margin-top: 7rem;
     margin-right: 5rem;
+    margin-bottom: 5rem;
 }
 .portfolio__header-content_social {
     margin-top: 1rem;
@@ -50,7 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 7rem;
     width: 100%;
     height: 100%;
 }
@@ -84,6 +84,6 @@
         flex-direction: column;
     }
     .portfolio__header-content{
-        margin: 0 0 3rem;
+        margin: 7rem 0 0 0;
     }
 }

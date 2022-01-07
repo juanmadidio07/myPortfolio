@@ -1,0 +1,11 @@
+.portfolio__footer-copyright_2 {
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+}
+.portfolio__footer-copyright_2 p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+}

@@ -44,7 +44,7 @@ function Head() {
     return (
         <div className='portfolio__header section__padding' id='home'>
             <div className='portfolio__header-content'>
-                <h1 className='gradient__text'>Hi, I'm Juan D. FullStack Web Developer</h1>
+                <h1 className='gradient__text'>Hi, I'm Juanma D. FullStack Web Developer</h1>
                 <div className='portfolio__header-content_social'>
                 <span className="word">instagram.com</span>
                 <span className="name">/juanmadidio07</span>

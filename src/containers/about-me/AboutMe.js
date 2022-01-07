@@ -13,8 +13,8 @@ export default function AboutMe() {
                 <p>Read More About Me</p>
             </div>
             <div className='portoflio__about-container'>
-                <About title="lorem" text="lorem" />
-                <About title="lorem" text="lorem" />
+                <About title="My Languages" text="I first learnt HTML, CSS, PHP, MySQL and then I learnt JavaScript and ReactJs Library. I also know FPDF, ChartJs and jQuery libraries." />
+                <About title="My Hobbies" text="I like to Programm WebSites as a hobbie and i spend time reading documentation about some langugaes I am Intersted in. I also like Cyber Security and I try to Implement what i know in my site to make it safer" />
                 <About title="lorem" text="lorem" />
             </div>
         </div>

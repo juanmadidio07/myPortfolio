@@ -1,0 +1,35 @@
+.portfolio__notfound {
+    background: #000;
+}
+.portfolio__notfound_container {
+    height: 280px;
+    background: var(--body-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio__notfound_container h1 {
+    font-family: var(--font-family);
+    color: #fff;
+    font-size: 40px;
+}
+.portfolio__notfound_container h1 {
+    margin-top: 280px;
+}
+
+@media screen and (max-width:550px) {
+    .portfolio__notfound_container {
+    }
+    .portfolio__notfound_container h1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .portfolio__notfound_container {
+        margin-left: 2rem;
+    }
+    .portfolio__notfound_container h1 {
+        font-size: 25px;
+    }
+}

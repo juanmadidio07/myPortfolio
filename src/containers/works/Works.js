@@ -1,6 +1,6 @@
 import React from 'react'
 
-import About from '../../components/about/About';
+import Projects from '../../components/projects/Projects';
 import './works.css'
 
 const worksData = [
@@ -31,7 +31,7 @@ const Works = () => {
             </div> 
             <div className='portfolio__works-container'>
                 {worksData.map((item, index) =>(
-                    <About title={item.title} text={item.text} key={item.title + index} />
+                    <Projects title={item.title} text={item.text} key={item.title + index} />
                 ))}
             </div>
         </div>
