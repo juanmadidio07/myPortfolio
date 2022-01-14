@@ -10,11 +10,11 @@ export default function AboutMe() {
             </div>
             <div className='portfolio__about-head'>
                 <h1>This is The about Information</h1>
-                <p>Read More About Me</p>
+                <p>Read Some About Me</p>
             </div>
             <div className='portoflio__about-container'>
-                <About title="My Languages" text="I first learnt HTML, CSS, PHP, MySQL and then I learnt JavaScript and ReactJs Library. I also know FPDF, ChartJs and jQuery libraries." />
-                <About title="My Hobbies" text="I like to Programm WebSites as a hobbie and i spend time reading documentation about some langugaes I am Intersted in. I also like Cyber Security and I try to Implement what i know in my site to make it safer" />
+                <About title="My Languages" text="I first learnt HTML, CSS, PHP, MySQL and then I learnt JavaScript, ReactJs Library  and NodeJs. I also know FPDF, ChartJs and jQuery libraries." />
+                <About title="My Hobbies" text="I like Programming WebSites as a hobbie and i spend time reading about some langugaes I am Intersted in. I also like Cyber Security and I try to Implement what i know in my site to make it safer" />
                 <About title="lorem" text="lorem" />
             </div>
         </div>
